@@ -1,0 +1,27 @@
+body {
+    background-color: darkcyan;
+}
+
+.aboutMeGeneralTheme {
+    width: 300px;
+    background-color: aqua;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.amgtHeader {
+    font-family: Arial;
+    text-align: center;
+}
+.amgtDescription {
+    font-family: Arial;
+    text-align: center;
+}
+
+.aboutMeGeneralThemeImg {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 100px;
+    width: 200px;
+}

@@ -1,0 +1,71 @@
+.logoImg {
+    border-radius: 50%;
+    width: 60px;
+}
+
+/*
+Slogan Styling
+*/
+
+.sloganThings {
+    margin: auto;
+    width: 50%;
+}
+
+.slogan {
+    color: white;
+    font-size: 75px;
+    padding-top: 5px;
+}
+
+/*
+About Us Button
+*/
+.aboutUsButton {
+    border: none;
+    color: white;
+    background-color: rgb(219, 175, 182);
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: Arial;
+    font-size: large;
+    cursor: pointer;
+    transition: opacitity .8s, background-color .8s;
+}
+
+.aboutUsButton:hover {
+    background-color: pink;
+}
+
+.aboutUsButton:active {
+    opacity: .7;
+}
+
+/*
+Sign Up Button
+*/
+.discordButton {
+    border: none;
+    float: right;
+    background-color: transparent;
+    border-style:dashed;
+    margin-right: 200px;
+    color: white;
+    width: 200px;
+    height: 50px; 
+    border-radius: 50px;
+    font-family: Arial;
+    font-size: large;
+    cursor: pointer;
+    transition: opacitity .8s, background-color .8s;
+}
+
+.discordButton:hover {
+    background-color: mediumpurple;
+    opacity: .9;
+}
+
+.discordButton:active {
+    opacity: .7;
+}
