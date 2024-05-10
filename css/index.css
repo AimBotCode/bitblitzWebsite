@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .logoImg {
     border-radius: 50%;
     width: 60px;
@@ -14,58 +18,100 @@ Slogan Styling
 
 .slogan {
     color: white;
+    font-family: Source Code Pro;
     font-size: 75px;
     padding-top: 5px;
 }
 
-/*
-About Us Button
-*/
-.aboutUsButton {
-    border: none;
-    color: white;
-    background-color: rgb(219, 175, 182);
-    width: 200px;
-    height: 50px;
-    border-radius: 50px;
-    font-family: Arial;
-    font-size: large;
-    cursor: pointer;
-    transition: opacitity .8s, background-color .8s;
-}
+/*discord link*/
 
-.aboutUsButton:hover {
-    background-color: pink;
-}
-
-.aboutUsButton:active {
-    opacity: .7;
-}
-
-/*
-Sign Up Button
-*/
-.discordButton {
-    border: none;
-    float: right;
-    background-color: transparent;
-    border-style:dashed;
-    margin-right: 200px;
-    color: white;
-    width: 200px;
-    height: 50px; 
-    border-radius: 50px;
-    font-family: Arial;
-    font-size: large;
-    cursor: pointer;
-    transition: opacitity .8s, background-color .8s;
-}
-
-.discordButton:hover {
+.discord {
     background-color: mediumpurple;
-    opacity: .9;
 }
 
-.discordButton:active {
-    opacity: .7;
+
+/*pain and suffering and about us*/ 
+
+.header {
+    text-align: center;
+    font-family: Source Code Pro;
+}
+.desc {
+    text-align: center;
+    font-family: Source Code Pro;
+}
+
+/*Aadi Information*/
+
+.aboutUs {
+    margin-top: 500px;
+}
+
+.aadiPatel {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 125px;
+    background-color: #4B4B4B;
+    display: inline-block;
+}
+.apImage {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 100px;
+    width: 200px;
+}
+
+/*Thrushil Information*/
+
+.thrushilPatel {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 125px;
+    background-color: #4B4B4B;
+    display: inline-block;
+}
+.tpImage {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 100px;
+    width: 200px;
+}
+
+/*Praseeth Information*/
+
+.praseethKrishnaprakash {
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 125px;
+    background-color: #4B4B4B;
+    display: inline-block;
+}
+.pkImage {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 200px;
+}
+
+/*Chase Information*/
+
+.chaseKhaHugnh {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 125px;
+    background-color: #4B4B4B;
+    display: inline-block;
+}
+.ckhImage {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 100px;
+    width: 200px;
 }
