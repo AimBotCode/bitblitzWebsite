@@ -39,7 +39,7 @@ Slogan Styling
     font-family: Source Code Pro;
     font-size: large;
     cursor: pointer;
-    transition: opacitity .4s, background-color .4s;
+    transition: border-style .6s, background-color .6s, opacity .4s;
 }
 
 .discordButton:hover {
@@ -62,20 +62,28 @@ Slogan Styling
     font-family: Source Code Pro;
 }
 
-/*Aditi Information*/
-
 .aboutUs {
-    margin-top: 400px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem 2rem;
 }
 
+.aboutUsText {
+    margin-top: 600px;
+    font-size: 50px;
+    font-family: Source Code Pro;
+    text-align: center;
+    color: white;
+}
+
+/*Aditi Information*/
+
 .aditiPatel {
     width: 300px;
     height: 350px;
     border-radius: 10px;
-    margin-left: 125px;
+    margin-left: 100px;
     background-color: #4B4B4B;
     display: inline-block;
 }
@@ -93,7 +101,7 @@ Slogan Styling
     width: 300px;
     height: 350px;
     border-radius: 10px;
-    margin-left: 125px;
+    margin-left: 100px;
     background-color: #4B4B4B;
     display: inline-block;
 }
@@ -110,7 +118,7 @@ Slogan Styling
 .praseethKrishnaprakash {
     width: 300px;
     border-radius: 10px;
-    margin-left: 125px;
+    margin-left: 100px;
     background-color: #4B4B4B;
     display: inline-block;
 }
@@ -128,7 +136,7 @@ Slogan Styling
     width: 300px;
     height: 350px;
     border-radius: 10px;
-    margin-left: 125px;
+    margin-left: 100px;
     background-color: #4B4B4B;
     display: inline-block;
 }
