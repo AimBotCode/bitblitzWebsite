@@ -3,7 +3,6 @@ body {
 }
 
 .logoImg {
-    border-radius: 50%;
     width: 60px;
 }
 
@@ -18,8 +17,9 @@ Slogan Styling
 
 .slogan {
     color: white;
-    font-family: Source Code Pro;
-    font-size: 75px;
+    margin-bottom: 5px;
+    font-family: Fredoka;
+    font-size: 100px;
     padding-top: 5px;
 }
 
@@ -36,7 +36,7 @@ Slogan Styling
     width: 250px;
     height: 50px; 
     border-radius: 50px;
-    font-family: Source Code Pro;
+    font-family: Fredoka;
     font-size: large;
     cursor: pointer;
     transition: border-style .6s, background-color .6s, opacity .4s;
@@ -51,99 +51,42 @@ Slogan Styling
 .discordButton:active {
     opacity: .7;
 } 
-/*pain and suffering and about us*/ 
 
-.header {
-    text-align: center;
-    font-family: Source Code Pro;
-}
-.desc {
-    text-align: center;
-    font-family: Source Code Pro;
+
+.slideshowDivContainer {
+    margin-top: 500px;
 }
 
-.aboutUs {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem 2rem;
+.slideshowImg {
+    width: 400px;
+    height: 400px;
 }
 
-.aboutUsText {
-    margin-top: 600px;
-    font-size: 50px;
-    font-family: Source Code Pro;
-    text-align: center;
+.aboutUsButton {
+    border: none;
+    background-color: black;
     color: white;
+    font-family: Fredoka;
+    font-size: large;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    border: none;
+    cursor: pointer;
 }
 
-/*Aditi Information*/
-
-.aditiPatel {
-    width: 300px;
-    height: 350px;
-    border-radius: 10px;
-    margin-left: 100px;
-    background-color: #4B4B4B;
-    display: inline-block;
+.abtUsText {
+    margin-top: 500px;
+    color: white;
+    font-family: Fredoka;
+    font-size: xx-large;
 }
-.apImage {
+
+.abtUsTextYap {
     margin-top: 10px;
-    margin-left: 50px;
-    display: inline-block;
-    border-radius: 100px;
-    width: 200px;
+    color: white;
+    font-family: Fredoka;
+    font-size: large;
 }
 
-/*Thrushil Information*/
-
-.thrushilPatel {
-    width: 300px;
-    height: 350px;
-    border-radius: 10px;
-    margin-left: 100px;
-    background-color: #4B4B4B;
-    display: inline-block;
-}
-.tpImage {
-    margin-top: 10px;
-    margin-left: 50px;
-    display: inline-block;
-    border-radius: 100px;
-    width: 200px;
-}
-
-/*Praseeth Information*/
-
-.praseethKrishnaprakash {
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 100px;
-    background-color: #4B4B4B;
-    display: inline-block;
-}
-.pkImage {
-    margin-top: 10px;
-    margin-left: 50px;
-    display: inline-block;
-    border-radius: 50%;
-    width: 200px;
-}
-
-/*Chase Information*/
-
-.chaseKhaHugnh {
-    width: 300px;
-    height: 350px;
-    border-radius: 10px;
-    margin-left: 100px;
-    background-color: #4B4B4B;
-    display: inline-block;
-}
-.ckhImage {
-    margin-top: 10px;
-    margin-left: 50px;
-    display: inline-block;
-    border-radius: 100px;
-    width: 200px;
-}
+/*pain and suffering and about us*/ 
