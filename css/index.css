@@ -23,13 +23,34 @@ Slogan Styling
     padding-top: 5px;
 }
 
+
 /*discord link*/
 
-.discord {
-    background-color: mediumpurple;
+.discordButton {
+    border: none;
+    float: center;
+    background-color: transparent;
+    border-style:dashed;
+    margin-right: 200px;
+    color: white;
+    width: 250px;
+    height: 50px; 
+    border-radius: 50px;
+    font-family: Source Code Pro;
+    font-size: large;
+    cursor: pointer;
+    transition: opacitity .4s, background-color .4s;
 }
 
+.discordButton:hover {
+    background-color: rgba(88,101,242,255);
+    border-style:none;
+    opacity: .9;
+}
 
+.discordButton:active {
+    opacity: .7;
+} 
 /*pain and suffering and about us*/ 
 
 .header {
@@ -41,13 +62,16 @@ Slogan Styling
     font-family: Source Code Pro;
 }
 
-/*Aadi Information*/
+/*Aditi Information*/
 
 .aboutUs {
-    margin-top: 500px;
+    margin-top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
 }
 
-.aadiPatel {
+.aditiPatel {
     width: 300px;
     height: 350px;
     border-radius: 10px;
