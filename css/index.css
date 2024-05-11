@@ -1,16 +1,16 @@
 body {
     background-color: black;
-    font-size: 32em;
+    font-size: 2em;
 }
 
 h1 {
-  font-size: 2em; /* relative to parent element, this sets h1 to 32px*/
+  font-size: 0.125em; /* relative to parent element, this sets h1 to 32px*/
 }
 p {
-  font-size: 1rem; /* relative to base font size, this sets to 16px */
+  font-size: 0.063em; /* relative to base font size, this sets to 16px */
 }
 .logoImg {
-    width: 100px;
+    width: 3.125em;
 }
 
 /*
@@ -24,25 +24,31 @@ Slogan Styling
 
 .slogan {
     color: white;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 0.438em;
+    margin-bottom: 0.438em;
     font-family: Fredoka;
-    font-size: 120px;
+    font-size: 4.688em;
 }
 
 
 /*discord link*/
+
+.discButtonLink {
+    width: 15.625em;
+    height: 3.125em;
+    border-color: white;
+}
+
 .discordButton {
     border: none;
     float: center;
     background-color: transparent;
     border-style:dashed;
-    margin-right: 200px;
+    margin-right: 12.5em;
     color: white;
-    width: 250px;
-    height: 50px; 
-    border-radius: 50px;
-    margin-top: 0px;
+    width: 15.625em;
+    height: 3.125em; 
+    border-radius: 3.125em;
     font-family: Fredoka;
     font-size: large;
     cursor: pointer;
@@ -61,12 +67,12 @@ Slogan Styling
 
 /*slideshow*/
 .slideshowDivContainer {
-    margin-top: 500px;
+    margin-top: 32em;
 }
 
 .slideshowImg {
-    width: 500px;
-    height: 500px;
+    width: 31.25em;
+    height: 31.25em;
 }
 
 .aboutUsButton {
@@ -75,46 +81,47 @@ Slogan Styling
     color: white;
     font-family: Fredoka;
     font-size: large;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 1.25em;
+    margin-right: 1.25em;
     float: right;
     border: none;
     cursor: pointer;
 }
 
 .abtUsText {
-    margin-top: 500px;
+    margin-top: 15.625em;
+    margin-right: 1.25em;
     color: white;
     font-family: Fredoka;
-    font-size: 65px;
+    font-size: 2em;
 }
 
 .abtUsTextYap {
-    margin-top: 10px;
+    margin-top: 0.625em;
+    margin-right: 1.25em;
     color: white;
     font-family: Fredoka;
-    font-size: 30px;
+    font-size: 1em;
 }
 
 .faqHolder {
     border-style: solid;
-    border-radius: 10px;
     border-color: white;
-    width: 1000px;
+    width: 70%;
 }
 
 .faqTitle {
     color: white;
     font-family: Fredoka;
-    font-size: 50px;
-    margin-left: 10px;
+    font-size: 2.34375em;
+    margin-left: 0.7em;
 }
 
 .faqInfo {
     color: white;
     font-family: Fredoka;
     font-size: x-large;
-    margin-left: 10px;
+    margin-left: 0.7em;
 }
 
 /*pain and suffering and about us*/ 
