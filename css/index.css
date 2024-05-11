@@ -1,9 +1,16 @@
 body {
     background-color: black;
+    font-size: 32em;
 }
 
+h1 {
+  font-size: 2em; /* relative to parent element, this sets h1 to 32px*/
+}
+p {
+  font-size: 1rem; /* relative to base font size, this sets to 16px */
+}
 .logoImg {
-    width: 60px;
+    width: 100px;
 }
 
 /*
@@ -17,15 +24,14 @@ Slogan Styling
 
 .slogan {
     color: white;
-    margin-bottom: 5px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     font-family: Fredoka;
-    font-size: 100px;
-    padding-top: 5px;
+    font-size: 120px;
 }
 
 
 /*discord link*/
-
 .discordButton {
     border: none;
     float: center;
@@ -36,6 +42,7 @@ Slogan Styling
     width: 250px;
     height: 50px; 
     border-radius: 50px;
+    margin-top: 0px;
     font-family: Fredoka;
     font-size: large;
     cursor: pointer;
@@ -52,7 +59,7 @@ Slogan Styling
     opacity: .7;
 } 
 
-
+/*slideshow*/
 .slideshowDivContainer {
     margin-top: 500px;
 }
