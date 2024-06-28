@@ -12,6 +12,11 @@
 	object-fit: contain;
 }
 
+.slideshowImg {
+	height: 12.5em;
+	width: 12.5em;
+}
+
 .slide-wrapper {
 
 	width: calc(728px * 4);
