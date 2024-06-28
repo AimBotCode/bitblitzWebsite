@@ -1,22 +1,15 @@
 #slideshow {
 	overflow: hidden;
-	height: 400px;
-	width: 400px;
+	height: 12.5em;
+	width: 12.5em;
 	margin: 0 auto;
 }
 
 .slide {
 	float: left;
-	height: 400px;
-	width: 400px;
-	object-fit: cover;
-}
-
-.img {
-	margin: auto;
-	width: 400px;
-	height: 400px;
-	object-fit: cover;
+	height: 12.5em;
+	width: 12.5em;
+	object-fit: contain;
 }
 
 .slide-wrapper {
@@ -49,14 +42,14 @@
 	}
 
 	40% {
-		margin-left: calc(-400px * 1);
+		margin-left: calc(-12.5em * 1);
 	}
 
 	60% {
-		margin-left: calc(-400px * 2);
+		margin-left: calc(-12.5em * 2);
 	}
 
 	80% {
-		margin-left: calc(-400px * 3);
+		margin-left: calc(-12.5em * 3);
 	}
 }
